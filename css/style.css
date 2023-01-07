@@ -268,3 +268,13 @@ ion-icon {
     right: 15px;
     display: none;
 }
+
+.selecionada {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px;
+    position: relative;
+}
+
+.selecionada ion-icon {
+    display: initial;
+}
