@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <title>projeto3-driveneats</title>
+
+        <!--fonte Roboto e Righteous-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <div class="container"> <!--contem a pagina inteira-->
+
+            <header> <!--caixa vermelha do topo-->
+
+                <div class="texto-topo"> <!--caixa com o titulo e o subtitulo-->
+                    <h1>DrivenEats</h1>
+                    <h3>Sua comida em 6 minutos</h3>
+                </div> <!--fecha div texto-topo-->
+
+            </header> <!--fecha a div cabecalho-->
+
+            <main class="area-alimentos"> <!--area que contem os produtos-->
+                
+                <div class="comida"> <!--caixa com as comidas e o titulo-->
+                    
+                    <span>Primeiro, seu prato</span> <!--titulo da area de comida-->
+
+                    <div class="caixas-comida"> <!--contem as 3 opções de comida-->
+                        
+                        <!--cada div primeira-caixa é um produto da pratileira das comidas-->
+                        <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa"> 
+                            <img src="img/frango_yin_yang 1.png"/>
+                            <h1 data-test="item-name">Frango Yin Yang</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2 data-test="item-price">R$ 13,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div primeira-caixa-->
+
+                        <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa">
+                            <img src="img/frango_yin_yang 1.png"/>
+                            <h1 data-test="item-name">Frango Yin Yang</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2 data-test="item-price">R$ 14,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div primeira-caixa-->
+
+                        <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa">
+                            <img src="img/frango_yin_yang 1.png"/>
+                                <h1 data-test="item-name">Frango Yin Yang</h1>
+                                <p>Um pouco de batata, um pouco de salada</p>
+                                <h2 data-test="item-price">R$ 15,90</h2>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div primeira-caixa-->
+
+                    </div> <!--fecha a div caixas-comida-->
+                </div> <!--fecha a div comida-->
+
+                <div class="bebida"> <!--caixa com as bebidas e o titulo-->
+
+                    <span>Agora, sua bebida</span> <!--titulo da area de bebida-->
+
+                    <div class="caixas-bebida"> <!--contem as 3 opções de bebida-->
+
+                        <!--cada div segunda-caixa é um produto da pratileira das bebidas-->
+                        <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
+                            <img src="img/coquinha_gelada 1.png"/>
+                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <p>Lata 350ml</p>
+                            <h2 data-test="item-price">R$ 3,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div segunda-caixa-->
+
+                        <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
+                            <img src="img/coquinha_gelada 1.png"/>
+                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <p>Lata 350ml</p>
+                            <h2 data-test="item-price">R$ 4,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div segunda-caixa-->
+
+                        <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
+                            <img src="img/coquinha_gelada 1.png"/>
+                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <p>Lata 350ml</p>
+                            <h2 data-test="item-price">R$ 5,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div segunda-caixa-->
+                    </div> <!--fecha a caixas-bebidas-->
+
+                </div> <!--fecha a div bebida-->
+
+                <div class="sobremesa"> <!--caixa com as sobremesas e o titulo-->
+
+                    <span>Por fim, sua sobremesa</span> <!--titulo da area de sobremesa-->
+
+                    <div class="caixas-sobremesa"> <!--contem as 3 opções de bebida-->
+
+                        <!--cada div terceira-caixa é um produto da pratileira das sobremesas-->
+                        <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
+                            <img src="img/pudim 1.png"/>
+                            <h1 data-test="item-name">Pudim</h1>
+                            <p>Apenas pudim</p>
+                            <h2 data-test="item-price">R$ 6,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div terceira-caixa-->
+
+                        <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
+                            <img src="img/pudim 1.png"/>
+                            <h1 data-test="item-name">Pudim</h1>
+                            <p>Apenas pudim</p>
+                            <h2 data-test="item-price">R$ 7,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div terceira-caixa-->
+
+                        <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
+                            <img src="img/pudim 1.png"/>
+                            <h1 data-test="item-name">Pudim</h1>
+                            <p>Apenas pudim</p>
+                            <h2 data-test="item-price">R$ 8,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div terceira-caixa-->
+
+                    </div> <!--fecha a div caixas-sobremesas-->
+                
+                </div> <!--fecha a div sobremesa-->
+
+            </main> <!--fecha a div area-alimentos-->
+
+            <footer> <!--caixa da parte inferior da pagina-->
+
+            <button data-test="order-btn"><p>Selecione os 3 itens para fechar o pedido</p></button> <!--botão da parte inferior da pagina-->
+
+            </footer> <!--fecha a div botao-->
+
+        </div> <!--fecha div container-->
+
+        <script src="script.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

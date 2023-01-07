@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 414px;
+    height: 1026px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 414px;
+    height: 92px;
+    background: #CF2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.texto-topo {
+    width: 248px;
+    height: 61px;
+    margin-top: 8px;
+}
+
+.texto-topo h1,
+.texto-topo h3 {
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 21px;
+}
+
+.texto-topo h1 {
+    font-family: 'Righteous';
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+}
+
+.texto-topo h3 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.area-alimentos {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comida, .bebida,
+.sobremesa {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    overflow-x: scroll;
+}
+
+.comida {
+    height: 289px;
+}
+
+.bebida {
+    height: 271px;
+}
+
+.sobremesa {
+    height: 266px;
+}
+
+.primeira-caixa:nth-child(3),
+.segunda-caixa:nth-child(3),
+.terceira-caixa:nth-child(3) {
+    margin-right: 16px;
+}
+
+.comida span,
+.bebida span,
+.sobremesa span {
+    width: 300px;
+    height: 25px;
+    margin-left: 19px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+
+.comida span {
+    width: 300px;
+    height: 25px;
+    margin-top: 31px;
+    margin-bottom: 17px;
+}
+
+.bebida span {
+    width: 251px;
+    height: 25px;
+    margin-top: 27px;
+}
+
+.sobremesa span {
+    width: 320px;
+    height: 25px;
+    margin-top: 27px;
+}
+
+img {
+    width: 134px;
+    height: 87px;
+}
+
+.primeira-caixa,
+.segunda-caixa,
+.terceira-caixa {
+    margin-left: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeira-caixa {
+    width: 172px;
+    height: 216px;
+}
+
+.segunda-caixa {
+    width: 172px;
+    height: 202px;
+}
+
+.terceira-caixa {
+    width: 172px;
+    height: 197px;
+}
+
+.caixas-comida,
+.caixas-sobremesa,
+.caixas-bebida {
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.caixas-comida {
+    width: 516px;
+    height: 216px;
+}
+
+.caixas-sobremesa {
+    width: 516px;
+    height: 197px;
+    margin-top: 17px;
+}
+
+.caixas-bebida {
+    width: 516px;
+    height: 202px;
+    margin-top: 17px;
+}
+
+footer {
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+button {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button p {
+    width: 242px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.primeira-caixa h1,
+.segunda-caixa h1,
+.terceira-caixa h1 {
+    width: 139px;
+    height: 23px;
+    margin-top: 8px;
+    margin-left: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.primeira-caixa p,
+.segunda-caixa p,
+.terceira-caixa p {
+    width: 134px;
+    margin-top: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #A6A6A6;
+}
+
+.primeira-caixa p {
+    height: 39px;
+}
+
+.segunda-caixa p,
+.terceira-caixa p {
+    height: 18px;
+    margin-bottom: 9px;
+}
+
+.primeira-caixa h2,
+.segunda-caixa h2,
+.terceira-caixa h2  {
+    width: 141px;
+    height: 19px;
+    margin-top: 5px;
+    margin-left: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+ion-icon {
+    color: green;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+}
