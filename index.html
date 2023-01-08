@@ -41,7 +41,15 @@
                         <!--cada div primeira-caixa é um produto da pratileira das comidas-->
                         <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa"> 
                             <img src="img/frango_yin_yang 1.png"/>
-                            <h1 data-test="item-name">Frango Yin Yang</h1>
+                            <h1 data-test="item-name">Frango Yin</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2 data-test="item-price">R$ 11,90</h2>
+                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div> <!--fecha a div primeira-caixa-->
+
+                        <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa">
+                            <img src="img/frango_yin_yang 1.png"/>
+                            <h1 data-test="item-name">Frango Yang</h1>
                             <p>Um pouco de batata, um pouco de salada</p>
                             <h2 data-test="item-price">R$ 13,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
@@ -51,16 +59,8 @@
                             <img src="img/frango_yin_yang 1.png"/>
                             <h1 data-test="item-name">Frango Yin Yang</h1>
                             <p>Um pouco de batata, um pouco de salada</p>
-                            <h2 data-test="item-price">R$ 14,90</h2>
+                            <h2 data-test="item-price">R$ 15,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                        </div> <!--fecha a div primeira-caixa-->
-
-                        <div onclick="selecionarPrato(this)" data-test="dish" class="primeira-caixa">
-                            <img src="img/frango_yin_yang 1.png"/>
-                                <h1 data-test="item-name">Frango Yin Yang</h1>
-                                <p>Um pouco de batata, um pouco de salada</p>
-                                <h2 data-test="item-price">R$ 15,90</h2>
-                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div> <!--fecha a div primeira-caixa-->
 
                     </div> <!--fecha a div caixas-comida-->
@@ -75,7 +75,7 @@
                         <!--cada div segunda-caixa é um produto da pratileira das bebidas-->
                         <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
                             <img src="img/coquinha_gelada 1.png"/>
-                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <h1 data-test="item-name">Coca Cola</h1>
                             <p>Lata 350ml</p>
                             <h2 data-test="item-price">R$ 3,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
@@ -83,17 +83,17 @@
 
                         <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
                             <img src="img/coquinha_gelada 1.png"/>
-                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <h1 data-test="item-name">Coca Zero</h1>
                             <p>Lata 350ml</p>
-                            <h2 data-test="item-price">R$ 4,90</h2>
+                            <h2 data-test="item-price">R$ 5,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div> <!--fecha a div segunda-caixa-->
 
                         <div onclick="selecionarBebida(this)" data-test="drink" class="segunda-caixa">
                             <img src="img/coquinha_gelada 1.png"/>
-                            <h1 data-test="item-name">Coquinha gelada</h1>
+                            <h1 data-test="item-name">Coca Light</h1>
                             <p>Lata 350ml</p>
-                            <h2 data-test="item-price">R$ 5,90</h2>
+                            <h2 data-test="item-price">R$ 7,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div> <!--fecha a div segunda-caixa-->
                     </div> <!--fecha a caixas-bebidas-->
@@ -109,15 +109,15 @@
                         <!--cada div terceira-caixa é um produto da pratileira das sobremesas-->
                         <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
                             <img src="img/pudim 1.png"/>
-                            <h1 data-test="item-name">Pudim</h1>
+                            <h1 data-test="item-name">Pudim Flan</h1>
                             <p>Apenas pudim</p>
-                            <h2 data-test="item-price">R$ 6,90</h2>
+                            <h2 data-test="item-price">R$ 5,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div> <!--fecha a div terceira-caixa-->
 
                         <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
                             <img src="img/pudim 1.png"/>
-                            <h1 data-test="item-name">Pudim</h1>
+                            <h1 data-test="item-name">Pudim de Leite</h1>
                             <p>Apenas pudim</p>
                             <h2 data-test="item-price">R$ 7,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
@@ -125,9 +125,9 @@
 
                         <div onclick="selecionarSobremesa(this)" data-test="dessert" class="terceira-caixa">
                             <img src="img/pudim 1.png"/>
-                            <h1 data-test="item-name">Pudim</h1>
+                            <h1 data-test="item-name">Pudim de Chocolate</h1>
                             <p>Apenas pudim</p>
-                            <h2 data-test="item-price">R$ 8,90</h2>
+                            <h2 data-test="item-price">R$ 9,90</h2>
                             <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div> <!--fecha a div terceira-caixa-->
 
@@ -139,7 +139,9 @@
 
             <footer> <!--caixa da parte inferior da pagina-->
 
-            <button data-test="order-btn"><p>Selecione os 3 itens para fechar o pedido</p></button> <!--botão da parte inferior da pagina-->
+                <button onclick="finalizarPedido()" disabled data-test="order-btn">
+                    <p class="texto-botao">Selecione os 3 itens para fechar o pedido</p>
+                </button> <!--botão da parte inferior da pagina-->
 
             </footer> <!--fecha a div botao-->
 

@@ -206,6 +206,7 @@ button p {
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .primeira-caixa h1,
@@ -277,4 +278,23 @@ ion-icon {
 
 .selecionada ion-icon {
     display: initial;
+}
+
+.botao-marcado {
+    background-color: #32B72F;
+}
+
+.botao-marcado p {
+    width: 242px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
