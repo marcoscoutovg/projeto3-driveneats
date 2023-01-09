@@ -30,7 +30,7 @@ function selecionarPrato(pratoSelecionado) {
     valorPrato = valorPrato.replace('R$ ', '');
     valorPrato = valorPrato.replace(',', '.');
 
-    let fazNumero = parseFloat(valorPrato);
+    parseFloat(valorPrato);
 
     comidaEscolhida = pratoSelecionado;
 
@@ -76,7 +76,7 @@ function selecionarBebida(bebidaSelecionada) {
     valorBebida = valorBebida.replace('R$ ', '');
     valorBebida = valorBebida.replace(',', '.');
 
-    let fazNumero = parseFloat(valorBebida);
+    parseFloat(valorBebida);
 
     bebidaEscolhida = bebidaSelecionada;
 
@@ -113,7 +113,7 @@ function selecionarSobremesa(sobremesaSelecionada) {
     valorSobremesa = valorSobremesa.replace('R$ ', '');
     valorSobremesa = valorSobremesa.replace(',', '.');
 
-    let fazNumero = parseFloat(valorSobremesa);
+    parseFloat(valorSobremesa);
 
     sobremesaEscolhida = sobremesaSelecionada;
 
